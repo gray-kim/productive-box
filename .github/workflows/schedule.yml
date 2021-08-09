@@ -13,5 +13,5 @@ jobs:
         uses: gray-kim/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 8f3adedeb2a41ee62cc0fb20353cf6a2
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Taipei
